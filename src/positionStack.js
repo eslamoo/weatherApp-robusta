@@ -9,7 +9,6 @@ const pos = Vue.axios.create({
     headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
-        'Access-Control-Allow-Origin': '*'
     }
 })
 export default pos
