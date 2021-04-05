@@ -10,8 +10,6 @@ const http = Vue.axios.create({
     headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
-
-
     }
 })
 
