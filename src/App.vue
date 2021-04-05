@@ -1,5 +1,5 @@
 <template>
-  <div id="app" v-if="location && currentTemp">
+  <div id="app" class="app-wrapper" v-if="location && currentTemp">
     <loading
       :active.sync="loading"
       :can-cancel="false"

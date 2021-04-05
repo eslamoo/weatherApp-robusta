@@ -39,6 +39,13 @@ body {
     color: #fff;
 }
 
+.app-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .temp {
     position: relative;
     top: -10px;
@@ -128,9 +135,6 @@ body {
 }
 
 .tempDetails {
-    position: absolute;
-    width: 100%;
-    bottom: 20px;
     .card-header {
         background-color: transparent;
         border-bottom: 1px solid #ffffff45;
